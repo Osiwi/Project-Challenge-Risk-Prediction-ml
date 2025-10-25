@@ -42,3 +42,8 @@ Most project tracking is reactive. This workflow makes it predictive:
 ## Related work
 - Upstream analytics and data engineering (energy, emissions, and operational context) are handled in a separate pipeline repository.
   This ML model can plug into that type of operational dataset to generate early warning risk signals.
+
+## Data
+The dataset used in this analysis is not included in the public repository for confidentiality.
+To reproduce the notebook, place your own project management dataset (with the same schema)
+at `data/Project_management_data.csv` and rerun the notebook.
